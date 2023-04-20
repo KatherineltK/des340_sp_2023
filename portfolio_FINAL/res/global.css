@@ -60,7 +60,7 @@ div.rtf{}
 div.rtf p{font-size:1em; line-height:1.5em; margin-bottom:0.5em;}
 div.rtf h1{font-size:3.2em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
 div.rtf h2{font-size:2.4em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
-div.rtf h3{font-size:1.8em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
+div.rtf h3{font-size:2.8em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em; font-family: 'Kanit', sans-serif;}
 div.rtf h4{font-size:1.2em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
 div.rtf h5{font-size:1em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
 /*typo end*/
@@ -83,9 +83,11 @@ header a.mail{text-decoration:none; align-self:center; justify-self:end; color:#
 /*Cards style end*/
 
 /*Image and text styles begin*/
-div.img_txt{max-width:1200px; margin:0 auto;
+div.img_txt{max-width:1500px; margin:0 auto;
 	display:grid; grid-template-columns: 1fr 1fr; grid-gap:3vw; padding: 3vw;}
 div.img_txt img{width:100%; margin-bottom:3vw;}
+div.grey {background-color:#fbfbfb;}
+div.close {min-height:50vh; grid-template-columns: 1fr 3fr; margin-top:50vh; margin-bottom: 25vh;}
 div.img-txt div.rtf{align-self:start;}
 
 @media screen AND (orientation: portrait)
@@ -97,9 +99,9 @@ div.img-txt div.rtf{align-self:start;}
 
 /*Image and text styles end*/
 /*hero image styles begin*/
-div.hero{min-height:100vh; position:relative;}
+div.hero{min-height:100vh; position:relative; margin-bottom: 25vh;}
 img.hero-img{width:100%; display:block; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
-div.hero div.hero-text{position:absolute; top:50%; left:50%; top:50%; left:50%; transform:translate(-50%,50%);
-font-size:6em; text-align:left; color:#000000; font-family: 'Kanit', sans-serif; }
+div.hero div.hero-text{position:absolute; top:50%; left:50%; top:50%; left:50%; margin-left:2.5em; transform:translate(-50%,50%);
+font-size:6em; text-align:left; color:#000000; font-family: 'Kanit', sans-serif}
 div.hero div.hero-txt h2{margin:0}
 /*hero image styles end*/
